@@ -1,0 +1,27 @@
+pattern create 128
+> aaaabaaacaaadaaaeaaafaaagaaahaaaiaaajaaakaaalaaamaaanaaaoaaapaaaqaaaraaasaaataaauaaavaaawaaaxaaayaaazaabbaabcaabdaabeaabfaabgaab
+```
+
+We send this pattern as the input and check the value of the stack pointer:
+```
+i r
+> esp = 0x61616166 ("faaa"?)
+pattern search faaa
+pattern create 128
+> aaaabaaacaaadaaaeaaafaaagaaahaaaiaaajaaakaaalaaamaaanaaaoaaapaaaqaaaraaasaaataaauaaavaaawaaaxaaayaaazaabbaabcaabdaabeaabfaabgaab
+```
+
+We send this pattern as the input and check the value of the stack pointer:
+```
+i r
+> esp = 0x61616166 ("faaa"?)
+pattern search faaa
+pattern create 128
+> aaaabaaacaaadaaaeaaafaaagaaahaaaiaaajaaakaaalaaamaaanaaaoaaapaaaqaaaraaasaaataaauaaavaaawaaaxaaayaaazaabbaabcaabdaabeaabfaabgaab
+```
+
+We send this pattern as the input and check the value of the stack pointer:
+```
+i r
+> esp = 0x61616166 ("faaa"?)
+pattern search faaa
